@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Button Base Style */
+.generate-button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #7427d1;
+    /* Laravel Default Purple */
+    border: none;
+    border-radius: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 1s ease;
+    /* Slower background transition */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(116, 39, 209, 0.3);
+    transform: scale(1);
+}
+
+/* Hover Animation */
+.generate-button:hover {
+    background: linear-gradient(45deg, #7427d1, #ff007f, #d100d1, #39d1ff);
+    /* Rainbow Gradient */
+    box-shadow: 0 0 8px rgba(116, 39, 209, 0.6), 0 0 12px rgba(116, 39, 209, 0.4);
+    transform: scale(1.03);
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Glow effect - toned down */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 12px rgba(116, 39, 209, 0.5), 0 0 18px rgba(116, 39, 209, 0.3);
+    }
+
+    100% {
+        box-shadow: 0 0 18px rgba(116, 39, 209, 0.8), 0 0 28px rgba(116, 39, 209, 0.6);
+    }
+}
+
+/* Center the button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+
+.hover-gif {
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-gif:hover {
+    content: attr(data-gif);
+}
+
+.hover-trigger {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-trigger:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
