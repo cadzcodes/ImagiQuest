@@ -38,7 +38,7 @@ class ImageGenerationController extends Controller
         ]);
 
         $prompt = $request->input('prompt');
-        $url = 'https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3.5-large-turbo';
+        $url = 'https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0';
         $apiKey = env('HUGGINGFACE_API_KEY');
 
         try {
