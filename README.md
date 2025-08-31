@@ -22,7 +22,7 @@ With our intuitive interface and advanced AI integration, you can create profess
 
 ![Demo GIF](https://raw.githubusercontent.com/cadzcodes/ImagiQuest/main/public/images/demo.gif)
 
-🔗 **[Live Demo](https://your-demo-url.com)** | 📖 **[Documentation](https://docs.your-project.com)**
+🔗 **[Live Demo](https://github.com/cadzcodes)** | 📖 **[Documentation](https://github.com/cadzcodes)**
 
 ## ✨ Features
 
@@ -67,7 +67,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/imagiquest.git
+git clone https://github.com/cadzcodes/imagiquest.git
 cd imagiquest
 ```
 
@@ -203,7 +203,7 @@ We welcome contributions from the community! Here's how you can help make ImagiQ
 ### Getting Started
 
 1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/yourusername/imagiquest.git`
+2. **Clone** your fork: `git clone https://github.com/cadzcodes/imagiquest.git`
 3. **Create** a feature branch: `git checkout -b feature/amazing-new-feature`
 4. **Make** your changes
 5. **Test** thoroughly
@@ -296,8 +296,8 @@ If you find ImagiQuest helpful, please consider:
 🤝 **Contributing** code  
 📢 **Sharing** with others
 
-**Made with ❤️ by the ImagiQuest Team**
+**Made with ❤️ by the Cadzcodes**
 
-[Website](https://your-website.com) • [Documentation](https://docs.your-project.com) • [Discord](https://discord.gg/your-invite) • [Twitter](https://twitter.com/your-handle)
+[Website](https://github.com/cadzcodes) • [Documentation](https://github.com/cadzcodes) • [Discord](https://github.com/cadzcodes) • [Twitter](https://github.com/cadzcodes)
 
 </div>
