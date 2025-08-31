@@ -20,7 +20,7 @@ With our intuitive interface and advanced AI integration, you can create profess
 
 <!-- Add your screenshots/GIFs here -->
 
-![Demo GIF](https://raw.githubusercontent.com/yourusername/imagiquest/main/public/images/demo.gif)
+![Demo GIF](https://raw.githubusercontent.com/cadzcodes/ImagiQuest/main/public/images/demo.gif)
 
 🔗 **[Live Demo](https://your-demo-url.com)** | 📖 **[Documentation](https://docs.your-project.com)**
 
